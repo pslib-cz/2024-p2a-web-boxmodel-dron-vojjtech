@@ -47,16 +47,19 @@
     background-size: cover;
     background-position:top center ;
     padding: 0.5em;
+    
  }
  .page__intro{
     color: var(--light, white);
-    margin-left: 1em;
-    margin-bottom: 1em;  
+    margin-left: 10em;
+    margin-bottom: 8em;  
+    margin-top: 25em;
+    width: 36%;
  }
  .page__logo {
     display: block;
     padding: 1em;
-    height: 2em;
+    height: 3em;
     aspect-ratio: 42/24;
     margin: 0 auto;
  }
@@ -70,26 +73,33 @@
     margin: 0 auto;
 }
 
+.page__footer{
+    background-color: var(--gray);
+    color: var(--light);
+    text-align: center;
+    padding: 2em;
+}
+
 
 .picture-box{
-    margin: 0em;
+    margin: 2em 0;
 }
 .picture-box__title{
     font-size: 0.8em;
     color: var(--gray);
     text-align: center;
+    margin: 1em 0;
+}
+
+.text-h2{
+    font-size: 2.25em;
+    font-weight: 700;
 }
 
 .text-h3 {
     font-size: 1.125em;
     font-weight: 700;
     margin-bottom: 1em;
-}
-
-.outline-box{
-    border: 3px solid var(--primary);
-    padding: 1em;
-    margin: 1em 0;
 }
 
 .list > li::marker{
@@ -103,6 +113,30 @@
     display: inline-block;
     padding: 1em;
     max-width: 24em;
+}
+
+.outline-box{
+    border: 3px solid var(--primary);
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.gray-box{
+    background-color: var(--gray);
+    text-align: center;
+    color: var(--light);
+    padding-top: 1em;
+    padding-bottom: 4em;
+    margin: 3em 0;
+}
+
+.big-text {
+    font-size: 3.75em;
+    font-weight: 700;
+    margin-bottom: 0em;
+}
+.bigbig-text{
+    font-size: 2em;
 }
 
 .button{
